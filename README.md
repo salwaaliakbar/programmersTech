@@ -1,3 +1,3 @@
 # programmersTech
 <br>
-by salwa ali akbar
+by krishna
