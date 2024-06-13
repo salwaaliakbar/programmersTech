@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: darkorange;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+}
+.logoType{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+main{
+    background-color: black;
+    height: 90vh;
+    display: inline-flex;
+}
+.checkBoxes{
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+}
+.boxes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 8vw;
+    border: 2px white solid;
+    color: white
+}
+.boxes:hover{
+    cursor: pointer;
+    background-color: rgb(78, 44, 3);
+}
+.top{
+    border-top: none;
+}
+.bottom{
+    border-bottom: none;
+}
+.left{
+    border-left: none;
+}
+.right{
+    border-right: none;
+}
+.Info{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 50px;
+    color: white;
+}
+.ButtonStyle{
+    margin-top: 10px;
+    margin-right: 50px;
+}
+button{
+    padding: 12px 50px;
+    border-radius: 20px;
+    font-size: 30px;   
+    background-color: black;
+    color: white;
+    
+}
+button:hover{
+    cursor: pointer;
+    color: darkorange;
+}
+.orange{
+    color: darkorange;
+}
+.gif{
+    display: flex;
+    width: 0px;
+    height: 0px;
+}
+.tie{
+    display: flex;
+    width: 0px;
+    height: 0px;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+}
+.wincount{
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 50px;
+    color: white;
+}
+.X{
+    font-size: 3vw;
+    color: white;
+}
+.O{
+    font-size: 3vw;
+    color: white;
+}
