@@ -90,17 +90,19 @@ reset.addEventListener('click',()=>{
         gifs[i].style.height = '0px';
     }
     count=0;
+
+    Array.from(AllBoxes).forEach((element)=>{
+        element.addEventListener('mouseenter', () => {
+            element.style.backgroundColor = 'rgb(78, 44, 3)';
+            element.style.cursor = 'pointer';
+        });
+        
+        element.addEventListener('mouseleave', () => {
+            element.style.backgroundColor = 'black';
+        });
+    })
 })
-if(rc===0) {
-Array.from(AllBoxes).forEach((element)=>{
-    element.addEventListener('mouseenter', () => {
-        element.style.backgroundColor = 'rgb(78, 44, 3)';
-        element.style.cursor = 'pointer';
-    });
-    
-    element.addEventListener('mouseleave', () => {
-        element.style.backgroundColor = 'black';
-    });
-})}
+
+
 
 
